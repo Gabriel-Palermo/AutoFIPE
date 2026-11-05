@@ -1,17 +1,70 @@
-# auto_fipe
+# AutoFIPE 🚗
 
-A new Flutter project.
+Aplicativo desenvolvido em Flutter para consulta de informações e preços de veículos por meio da Tabela FIPE, utilizando a API da Invertexto.
 
-## Getting Started
+## Sobre o projeto
 
-This project is a starting point for a Flutter application.
+O AutoFIPE permite consultar marcas, modelos, anos e preços de veículos, além de visualizar o histórico de preços de determinado veículo.
 
-A few resources to get you started if this is your first Flutter project:
+O projeto foi desenvolvido como atividade acadêmica do curso de Engenharia de Software.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Funcionalidades
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Listagem de marcas de veículos.
+- Pesquisa de marcas.
+- Listagem de modelos de uma marca.
+- Pesquisa de modelos.
+- Consulta de anos e preços atuais.
+- Visualização do histórico de preços.
+- Interface escura com identidade visual automotiva e tecnológica.
+
+## Tecnologias utilizadas
+
+- Flutter
+- Dart
+- API REST
+- HTTP
+
+## API utilizada
+
+**Invertexto – Tabela FIPE**
+
+Documentação: https://api.invertexto.com/
+
+Endereço da API: https://api.invertexto.com/v1/fipe
+
+A aplicação utiliza a API para obter os dados de marcas, modelos, anos e histórico de preços dos veículos.
+
+## Como executar o projeto
+
+1. Instale o Flutter e configure o ambiente de desenvolvimento.
+2. Clone este repositório:
+
+   ```bash
+   git clone https://github.com/Gabriel-Palermo/AutoFIPE.git
+   ```
+
+3. Entre na pasta:
+
+   ```bash
+   cd AutoFIPE
+   ```
+
+4. Instale as dependências:
+
+   ```bash
+   flutter pub get
+   ```
+
+5. Configure o token de acesso da API da Invertexto.
+6. Execute no navegador Chrome:
+
+   ```bash
+   flutter run -d chrome
+   ```
+
+## Desenvolvedor
+
+Gabriel Palermo
+
+Projeto acadêmico – Engenharia de Software.
